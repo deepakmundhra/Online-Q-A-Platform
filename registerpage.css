@@ -1,0 +1,229 @@
+#wrapper{
+	width:1320px;
+	margin:0px auto;}
+#header{
+	width:100%;
+	height:140px;
+	background-color:#ADADCA;}
+#logo{
+	width:18%;
+	height:120px;
+	float:left;
+	padding: 10px 10px 10px 10px;}
+#title{
+	width:60%;
+	height:120px;
+	float:left;}
+#user{
+	width:20%;
+	height:120px;
+	float:left;}
+#hmid{
+	width:100%;
+	height:30px;
+	float:left;
+	background:linear-gradient(#000001,#353437);
+	color:white;
+	font-size: 30px;}
+#leftpanel{
+	width:20%;
+	height:680px;
+	background-color:#F0F0F1;
+	float:left;}
+#leftm{
+	width:220px;
+	height:auto;
+	background-color:white;
+	box-shadow: 0 0 7px #888888;
+	position:relative;
+	padding:10px;
+    top:14px;
+    margin: auto;}
+#contents{
+	width:60%;
+	height:680px;
+	background-color:#F0F0F1;
+	float:left;}
+#contentsm{
+	width:740px;
+	height:auto;
+	background-color:white;
+	box-shadow: 0 0 7px #888888;
+	position:relative;
+	padding:10px;
+    top:14px;
+    margin: auto;}
+#contentsms{
+	width:740px;
+	height: 500px;
+	background-color:white;
+	box-shadow: 0 0 7px #888888;
+	position:relative;
+	padding:10px;
+    top:14px;
+    margin: auto;}
+#rightpanel{
+	width:20%;
+	height:680px;
+	background-color:#F0F0F1;
+	float:left;}
+#rightm{
+	width:220px;
+	height:auto;
+	background-color:white;
+	box-shadow: 0 0 7px #888888;
+	position:relative;
+	padding:10px;
+    top:14px;
+    margin: auto;}
+.button {
+    background-color:#28285F;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;}
+h2{
+	color:#28285F;
+	font-weight:bold;
+	display:inline;}
+h3{
+	color:#28285F;}
+#hmid a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:uppercase;}
+#hmid a:hover{
+	color:silver;}
+#header a:hover{
+	color:black;}
+body{
+	background:#F0F0F1;}
+#aboutus{
+	width:100%;
+	height:70px;
+	text-align:center;}
+#rishabh{
+	width:100%;
+	height:150px;
+	float:left;}
+#sohan{
+	width:100%;
+	height:150px;
+	float:left;
+	font-size: 5px;}
+#deepak{
+	width:100%;
+	height:150px;
+	float:left;
+	font-size: 5px;}
+#contactmail{
+	width:100%;
+	height:80px;
+	float:left;
+}
+ul{
+        padding: 0;
+        list-style: none;
+        background:#ADADCA;}
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 24px;
+        text-align: center;}
+    ul li a{
+        display: block;
+        padding: 5px 20px;
+        color:#333;
+        text-decoration:none;}
+    ul li a:hover{
+        background:#979AA1;}
+    ul li ul.dropdown{
+        min-width: 100%;
+        background:#EAECF1;
+        display: none;
+        position:absolute;
+        z-index:999;
+        left:0;}
+    ul li:hover ul.dropdown{
+        display: block;}
+    ul li ul.dropdown li{
+        display: block;}
+*{margin:0px;
+	padding:0px;}
+#container{
+	width:550px;
+	background-color:rgba(250,250,252,.9);
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	box-shadow:0 0 3px #999;}
+#container_body{
+	padding:20px;}
+.form_title{
+	font-size:35px;
+	color:#141823;
+	text-align:center;
+	padding:10px;
+	font-weight:normal;}
+.head_para{
+	font-size:19px;
+	color:#99a2a7;
+	text-align:center;
+	font-weight:normal;}
+#form_name{
+	padding:25px 0 0 15px;}
+.firstnameorlastname{
+	 margin-right:20px;}
+.input_name{
+	width:215px;
+	padding:5px;
+	font-size:18px;}
+#email_form{
+	clear:both;
+	padding:15px 0 10px 0px;}
+.input_email{
+	width:434px;
+	padding:5px;
+	font-size:18px;}
+#Re_email_form{
+	padding:10px 0 10px 0px;}
+.input_Re_email{
+	width:434px;
+	padding:5px;
+	font-size:18px;}
+#password_form{
+	padding:10px 0 10px 0px;}
+.input_password{
+	width:434px;
+	padding:5px;
+	font-size:18px;}
+.birthday_title{
+	font-size:16px; 
+	color:#8b919d; 
+	font-weight:normal;
+	padding:0 0 10px 0;}
+select{
+	padding:5px;}
+#birthday{
+	font-size:12px;
+	color:#8b919d;
+	padding-top:10px;}
+#radio_button{
+	padding:18px 0 0 0;}
+#sign_user{
+	font-size:14px;
+	color:#FFF;
+	text-align:center;
+	background-color:#3B5998;
+	padding:10px;
+	margin-top:10px;
+	cursor: pointer;}
+#errorBox{
+	color:#F00;}
+#aboutme{
+	width:100%;
+	height:40px;
+	text-align:center;}
